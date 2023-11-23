@@ -1,5 +1,6 @@
 import Navbar from "../../Shared/Navbar/Navbar";
 import Adventures from "../Adventures/Adventures";
+import Destinations from "../Destinations/Destinations";
 import Hero from "../Hero/Hero";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <Adventures />
+      <Destinations />
     </>
   );
 };
