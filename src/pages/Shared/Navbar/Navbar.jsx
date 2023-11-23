@@ -1,18 +1,11 @@
+import { navLinks } from "../../../constants";
 import styles from "./Navbar.module.css";
 
 const Navbar = () => {
-  const links = [
-    { path: "/", name: "Home" },
-    { path: "/about", name: "About" },
-    { path: "/schedules", name: "Schedules" },
-    { path: "/membership", name: "Membership" },
-    { path: "/pricing", name: "Pricing" },
-  ];
-
   return (
     <nav>
       <ul className={styles.navLink}>
-        {links.map((link, index) => (
+        {navLinks.map((link, index) => (
           <li key={index}>
             <a to={link.path}>{link.name}</a>
           </li>

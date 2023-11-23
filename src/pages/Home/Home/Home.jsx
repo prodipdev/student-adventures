@@ -1,12 +1,14 @@
 import Navbar from "../../Shared/Navbar/Navbar";
+import Adventures from "../Adventures/Adventures";
 import Hero from "../Hero/Hero";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Navbar />
       <Hero />
-    </div>
+      <Adventures />
+    </>
   );
 };
 
