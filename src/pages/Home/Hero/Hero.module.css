@@ -1,0 +1,39 @@
+.hero {
+  display: flex;
+  align-items: center;
+  background: rgba(248, 241, 211, 0.25);
+  padding: 55px 120px 195px;
+}
+
+.leftSide {
+  font-family: "Inter", sans-serif;
+  color: #1f2027;
+}
+
+.leftSide > *:nth-child(1) {
+  font-size: 20px;
+  font-weight: 600;
+}
+.leftSide > *:nth-child(2) {
+  font-family: "Poppins", sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100px;
+}
+.leftSide > *:nth-child(2) span {
+  font-weight: 700;
+}
+.leftSide > *:nth-child(3) {
+  color: #505c59;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 50px 0;
+}
+
+.rightSide img {
+  max-width: 541px;
+  margin-left: 100px;
+}
