@@ -1,4 +1,4 @@
-# LogoIpsum Landing Page with API Integration
+# Student Adventures Landing Page
 
 ## Overview
 
