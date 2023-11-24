@@ -1,0 +1,90 @@
+.bookNow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+  margin-top: 150px;
+}
+.formContainer {
+  border-radius: 23.346px;
+  background: #fff;
+  box-shadow: 0px 4.42478px 6.21021px 0px rgba(0, 0, 0, 0.03),
+    0px 14.8619px 20.85881px 0px rgba(0, 0, 0, 0.04),
+    0px 66.53697px 93.38522px 0px rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+  padding: 30px;
+  font-family: "Roboto", sans-serif;
+  max-width: 420px;
+}
+.formContainer h3 {
+  font-size: 32px;
+  font-weight: 900;
+}
+.subTitle {
+  color: #282828;
+  font-size: 18.677px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.848px;
+  letter-spacing: 0.584px;
+  margin-bottom: 55px;
+}
+.city h5,
+.arrival h5,
+.departure h5,
+.starRoom h5 {
+  font-size: 12.84px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26.848px;
+  letter-spacing: 0.584px;
+  text-transform: uppercase;
+}
+.city input,
+.arrival input,
+.departure input {
+  border-radius: 11.673px;
+  border: 0px solid #000;
+  background: #f3f3f3;
+  width: 100%;
+  padding: 18px;
+}
+.arrivalDeparture,
+.starRoom {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin-top: 18px;
+}
+.arrival,
+.departure {
+  width: 100%;
+}
+.buttonGroup {
+  display: flex;
+  border-radius: 11.673px;
+  overflow: hidden;
+}
+.starRoom input {
+  background: #f3f3f3;
+  width: 100%;
+  padding: 18px;
+  border: none;
+}
+.starRoom button {
+  background: #ebebeb;
+  display: flex;
+  padding: 15.175px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border: none;
+}
+.submitBtn {
+  padding: 14.008px 18.677px;
+  border-radius: 4.669px;
+  background: #000;
+  color: white;
+  border: none;
+  margin-top: 60px;
+}

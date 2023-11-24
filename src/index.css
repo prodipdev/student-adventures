@@ -11,11 +11,14 @@ body {
   margin: auto;
 }
 
+button {
+  cursor: pointer;
+}
+
 .primary_btn {
   padding: 16px 32px;
   color: white;
   background-color: #f27a44;
   border-radius: 30px;
   border-style: none;
-  cursor: pointer;
 }
