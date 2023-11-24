@@ -37,3 +37,32 @@
 .boldLink a {
   font-weight: 600;
 }
+
+/* Mobile Devices */
+@media screen and (max-width: 576px) {
+  .shortLinks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 7px;
+  }
+  .footer {
+    margin-top: 100px;
+    margin-bottom: 80px;
+    padding: 0, 20px !important;
+  }
+  .footer h2 {
+    font-size: 30px;
+  }
+  .footer p {
+    margin: 25px auto;
+  }
+}
+
+/* Tablet Devices */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .shortLinks {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+  }
+}

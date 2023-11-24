@@ -22,3 +22,14 @@ button {
   border-radius: 30px;
   border-style: none;
 }
+@media screen and (max-width: 576px) {
+  .primary_btn {
+    padding: 10px 20px;
+  }
+  section {
+    padding: 0, 20px;
+  }
+  footer {
+    padding: 0, 20px;
+  }
+}

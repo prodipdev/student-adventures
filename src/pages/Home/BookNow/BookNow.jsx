@@ -8,9 +8,9 @@ const BookNow = () => {
       <div>
         <img src={leftImg} alt="left image" />
       </div>
-      <div>
+      <>
         <BookNowForm />
-      </div>
+      </>
     </section>
   );
 };

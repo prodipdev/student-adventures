@@ -28,3 +28,27 @@ h2 {
 .hr {
   margin-bottom: 30px;
 }
+
+/* Mobile Devices */
+@media screen and (max-width: 576px) {
+  .testimonialsContainer {
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 40px;
+    padding: 0, 20px;
+  }
+  .cardBody {
+    max-width: 100%;
+  }
+}
+
+/* Tablet Devices */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .testimonialsContainer {
+    gap: 50px;
+    margin-top: 40px;
+  }
+  section {
+    padding: 0, 50px;
+  }
+}

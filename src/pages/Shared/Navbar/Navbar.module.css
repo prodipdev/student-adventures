@@ -20,3 +20,57 @@ nav {
   align-items: center;
   gap: 40px;
 }
+.menu {
+  display: none;
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 768px) {
+  nav {
+    justify-content: end;
+    padding: 20px 20px 20px;
+  }
+  .navLink {
+    display: none;
+  }
+  .menu {
+    position: absolute;
+    display: block;
+    left: 8px;
+    top: 8px;
+    z-index: 50;
+  }
+  .menu img {
+    width: 50px;
+    height: 50px;
+  }
+  .hamburgerNav {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: fit-content;
+    list-style: none;
+    background: white;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    padding: 55px 50px 20px 20px;
+    display: grid;
+    gap: 8px;
+    transition: all;
+    border-radius: 20px;
+  }
+}
+
+/* Tablet Devices */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  nav {
+    justify-content: end;
+    padding: 30px 50px 20px;
+  }
+  .menu {
+    left: 50px;
+    top: 20px;
+  }
+  .hamburgerNav {
+    padding: 80px 100px 50px 50px;
+  }
+}
