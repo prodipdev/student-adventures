@@ -100,8 +100,8 @@ const Destinations = () => {
           style={{ cursor: "pointer" }}
         />
         <div>
-          <span>{currentCards + 1}</span> /{" "}
-          <span>{destinationsData.length - 3}</span>
+          <span>{currentCards + 4}</span> /{" "}
+          <span>{destinationsData.length}</span>
         </div>
         <img
           src={rightArrowActiveState ? rightArrowActive : rightArrow}

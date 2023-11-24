@@ -1,0 +1,39 @@
+.discountsInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  font-family: "Inter", sans-serif;
+  margin-top: 150px;
+}
+.leftSvg {
+  display: flex;
+  gap: 250px;
+  margin-bottom: 35px;
+}
+.leftSide h3 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.leftSide h3 span {
+  font-size: 30px;
+  font-weight: 400;
+}
+.leftSide p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.leftSide ul {
+  margin-bottom: 60px;
+  margin-left: 20px;
+}
+.leftSide ul li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.rightSide img {
+  width: 100%;
+  height: auto;
+}
