@@ -4,6 +4,7 @@ import BookNow from "../BookNow/BookNow";
 import Destinations from "../Destinations/Destinations";
 import Discounts from "../Discounts/Discounts";
 import Hero from "../Hero/Hero";
+import Testimonials from "../Testimonials/Testimonials";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Destinations />
       <Discounts />
       <BookNow />
+      <Testimonials />
     </>
   );
 };
