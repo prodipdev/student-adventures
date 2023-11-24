@@ -1,8 +1,19 @@
-# React + Vite
+# LogoIpsum Landing Page with API Integration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Student Adventures is a responsive landing page, developed using React, CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Live Demo**: [Student Adventures](https://student-adventures.vercel.app/)
+
+## Features
+
+- **Responsive Design:**
+
+  - Ensure a seamless viewing experience across devices including mobiles, tablets, and desktops.
+
+- **Dynamic Carousel Slider :**
+
+  - Display dynamic navigated card that is controlled by two buttons.
+
+![Student Adventures Screenshot](https://i.ibb.co/gtfrgKR/screencapture-localhost-5173-2023-11-24-22-00-52.png)
