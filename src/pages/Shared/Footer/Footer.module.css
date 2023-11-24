@@ -1,0 +1,39 @@
+.footer {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  margin-top: 230px;
+  margin-bottom: 155px;
+}
+.footer h2 {
+  margin: 0 auto;
+  max-width: 668px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.footer p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  max-width: 423px;
+  margin: 32px auto;
+}
+.shortLinks {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.shortLinks a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.boldLink a {
+  font-weight: 600;
+}

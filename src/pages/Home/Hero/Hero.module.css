@@ -10,21 +10,22 @@
   color: #1f2027;
 }
 
-.leftSide > *:nth-child(1) {
+.subTitle {
   font-size: 20px;
   font-weight: 600;
+  margin-top: 30px;
 }
-.leftSide > *:nth-child(2) {
+.title {
   font-family: "Poppins", sans-serif;
   font-size: 80px;
   font-style: normal;
   font-weight: 500;
   line-height: 100px;
 }
-.leftSide > *:nth-child(2) span {
+.title span {
   font-weight: 700;
 }
-.leftSide > *:nth-child(3) {
+.details {
   color: #505c59;
   font-size: 16px;
   font-style: normal;

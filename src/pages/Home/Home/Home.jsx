@@ -1,3 +1,4 @@
+import Footer from "../../Shared/Footer/Footer";
 import Navbar from "../../Shared/Navbar/Navbar";
 import Adventures from "../Adventures/Adventures";
 import BookNow from "../BookNow/BookNow";
@@ -10,12 +11,17 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <Hero />
-      <Adventures />
-      <Destinations />
-      <Discounts />
-      <BookNow />
-      <Testimonials />
+      {/* Start Main Content of Home page */}
+      <main>
+        <Hero />
+        <Adventures />
+        <Destinations />
+        <Discounts />
+        <BookNow />
+        <Testimonials />
+      </main>
+      {/* End Main Content of Home page */}
+      <Footer />
     </>
   );
 };
